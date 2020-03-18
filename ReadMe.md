@@ -36,9 +36,8 @@
 > @------------------  
 > @ loadKeystoreJson: json= {"version":3,"id":"e504683c-06e6-4979-a82a-bc2c2e30d384","crypto":{"ciphertext":"f91128c599f3ebd620ade0bc419ef10bbc968c06c33bf7246317cb53ddbc172a","cipherparams":{"iv":"f9e4c05c41dc0596c1f3fa2e8d4fa7e7"},"kdf":"scrypt","kdfparams":{"r":6,"p":1,"n":4096,"dklen":32,"salt":"d58528b1f004f733a0e4fbe1d7851b079f864a6dfe20ef51aab1465cb78d5231"},"mac":"343b5c320cc2c68aaa7ff4020c6625bc2a9b1c41eeb0f514923967a2256ad76a","cipher":"aes-128-ctr"},"address":"0x988c5515313cf829e6a70637dbcff739cbfa90f3"}  
 > @ loadKeystore: result= true  
-> @ CURRENT KEYSTORE  
-> @ ethereumAddress: 0x988C5515313cf829e6A70637DbCff739CbfA90f3  
 > @ Web3Helper is READY  
+> @ ethereumAddress: 0x988C5515313cf829e6A70637DbCff739CbfA90f3  
 > @------------------  
 > @ checkBalance  
 > @------------------  

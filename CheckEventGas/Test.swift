@@ -82,6 +82,7 @@ class Test {
             }
             
             print( "@ Web3Helper is READY" )
+            print( "@ ethereumAddress:", helper.getCurEthereumAddress()! )
 
             // 残高(ETH)の確認
             self.checkBalance()
@@ -161,11 +162,6 @@ class Test {
                 print( "@ saveKeystoreJson: result=", result )
             }
         }
-
-        // イーサリアムアドレスの確認
-        let ethereumAddress = helper.getCurEthereumAddress()
-        print( "@ CURRENT KEYSTORE" )
-        print( "@ ethereumAddress:", ethereumAddress! )
     }
     
     //------------------------
